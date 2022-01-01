@@ -110,6 +110,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Sponsors\SunsetArcticGraphicsLogo.png" />
+    <Content Include="Images\WhiteLine.png" />
     <Content Include="Standings.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -126,15 +128,15 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\InstagramButton.png" />
     <Content Include="Images\Sponsors\FatBastardLogo.jpg" />
-    <Content Include="Images\Sponsors\FawnAndFannyLogo.png" />
-    <Content Include="Images\Sponsors\MajorsGarageLogo.jpg" />
+    <Content Include="Images\Sponsors\MKWLogo.png" />
+    <Content Include="Images\Sponsors\RaceVerseLogo.png" />
     <Content Include="Images\Sponsors\PRILogo.png" />
     <Content Include="Images\Sponsors\SunsetArcticLogo.png" />
     <Content Include="Images\Sponsors\WesternWavesLogo.png" />
     <Content Include="Images\TwitterButton.png" />
     <Content Include="Images\Discord-Logo.png" />
     <Content Include="Images\FTSBackground.png" />
-    <Content Include="Images\PRIFIS.png" />
+    <Content Include="Images\FISLogo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

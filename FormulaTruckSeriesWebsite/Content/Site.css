@@ -29,3 +29,14 @@ textarea {
         padding: 0;
     }
 }
+
+
+.dropdown-menu {
+    background-color: #222222;
+}
+.dropdown-item {
+    color: #E6E6E6;
+    font-size: 20px;
+    padding:10px;
+}
+

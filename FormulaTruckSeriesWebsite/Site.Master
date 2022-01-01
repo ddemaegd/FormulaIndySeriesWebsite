@@ -60,7 +60,7 @@
 
         <div class="mainbody">
 
-            <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar navbar-inverse navbar-fixed-top" style="border-bottom: 2px solid green">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -75,7 +75,19 @@
                             <li><a runat="server" href="~/">Home</a></li>
                             <li><a runat="server" href="~/Default.aspx#SocialMedia">Social Media</a></li>
                             <li><a runat="server" href="~/Default.aspx#Sponsors">Sponsors</a></li>
-                            <li><a runat="server" href="~/Standings">Standings</a></li>
+                            <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Standings ▼</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/Standings.aspx?Season=1">2021 Season 1</a>
+                                        <br />
+                                        <a class="dropdown-item" href="/Standings.aspx?Season=2">2021 Season 2</a>
+                                        <br />
+                                        <div>___________________</div>
+                                        <br />
+                                        <a class="dropdown-item" href="/Standings.aspx?Season=3">2022 Season 1</a>
+                                      <div class="dropdown-divider"></div>
+                                    </div>
+                                  </li>
                         </ul>
                     </div>
                 </div>
